@@ -9,9 +9,9 @@ namespace WebApi.Models
     {
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
-            await Task.FromResult(0);
-
             context.Validated();
+
+            await Task.FromResult<object>(null);
         }
 
         public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)

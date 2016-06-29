@@ -1,10 +1,11 @@
 ﻿using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
-using Microsoft.AspNetCore.Cors;
 using Newtonsoft.Json.Serialization;
-using Microsoft.Owin.Cors;
-using Microsoft.Owin;
+//https://msdn.microsoft.com/pt-br/library/dn376307.aspx
+//http://weblogs.asp.net/andrebaltieri/implementando-bearer-autentication-com-webapi-e-owin
+//http://www.leonardohofling.com/blog/web-api-adicionando-autenticacao-oauth/
+//http://waldyrfelix.com.br/2012/11/01/asp-net-webapi-basic-authentication/
 namespace WebApi
 {
     public static class WebApiConfig
