@@ -1,0 +1,1 @@
+﻿app.constant("$url", { "path": "http://localhost:54651/" });

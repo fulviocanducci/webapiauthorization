@@ -1,0 +1,1 @@
+﻿app.run(["$authorization", "$location", function ($authorization) { $authorization.init(); }]);

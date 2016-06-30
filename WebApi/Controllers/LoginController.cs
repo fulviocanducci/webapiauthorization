@@ -49,7 +49,7 @@ namespace WebApi.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            dataContext.Dispose();
+            dataContext?.Dispose();
         }
     }
 
